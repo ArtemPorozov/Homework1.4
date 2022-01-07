@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Homework1_4App: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(NewsScreenViewModel())
+                .environmentObject(CustomNavScreenViewModel())
         }
     }
+    
 }

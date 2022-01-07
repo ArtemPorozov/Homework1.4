@@ -11,6 +11,19 @@
 		A88F793827876454009CCA01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F793727876454009CCA01 /* ContentView.swift */; };
 		A88F793A27876457009CCA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88F793927876457009CCA01 /* Assets.xcassets */; };
 		A88F793D27876457009CCA01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88F793C27876457009CCA01 /* Preview Assets.xcassets */; };
+		A88F794527876568009CCA01 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F794427876568009CCA01 /* LazyView.swift */; };
+		A88F795D278765A0009CCA01 /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F79472787659F009CCA01 /* ModalScreen.swift */; };
+		A88F7961278765A0009CCA01 /* NewsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F79512787659F009CCA01 /* NewsScreenViewModel.swift */; };
+		A88F7962278765A0009CCA01 /* NewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F79532787659F009CCA01 /* NewsScreen.swift */; };
+		A88F7963278765A0009CCA01 /* CustomNavScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F7956278765A0009CCA01 /* CustomNavScreenViewModel.swift */; };
+		A88F7964278765A0009CCA01 /* ModalScreenOpenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F7958278765A0009CCA01 /* ModalScreenOpenerView.swift */; };
+		A88F7965278765A0009CCA01 /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F7959278765A0009CCA01 /* ThirdScreen.swift */; };
+		A88F7966278765A0009CCA01 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F795A278765A0009CCA01 /* ActivityView.swift */; };
+		A88F796E27876B19009CCA01 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = A88F796D27876B19009CCA01 /* Networking */; };
+		A88F797027877D5A009CCA01 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F796F27877D5A009CCA01 /* NewsListViewModel.swift */; };
+		A88F797227877E41009CCA01 /* LoadingIndicatorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F797127877E40009CCA01 /* LoadingIndicatorModifier.swift */; };
+		A88F797527877E95009CCA01 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F797427877E95009CCA01 /* Array.swift */; };
+		A88F7979278859E3009CCA01 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F7978278859E3009CCA01 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,19 @@
 		A88F793727876454009CCA01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A88F793927876457009CCA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A88F793C27876457009CCA01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A88F794427876568009CCA01 /* LazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		A88F79472787659F009CCA01 /* ModalScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
+		A88F79512787659F009CCA01 /* NewsScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsScreenViewModel.swift; sourceTree = "<group>"; };
+		A88F79532787659F009CCA01 /* NewsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsScreen.swift; sourceTree = "<group>"; };
+		A88F7956278765A0009CCA01 /* CustomNavScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavScreenViewModel.swift; sourceTree = "<group>"; };
+		A88F7958278765A0009CCA01 /* ModalScreenOpenerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalScreenOpenerView.swift; sourceTree = "<group>"; };
+		A88F7959278765A0009CCA01 /* ThirdScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
+		A88F795A278765A0009CCA01 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		A88F796927876967009CCA01 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		A88F796F27877D5A009CCA01 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		A88F797127877E40009CCA01 /* LoadingIndicatorModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorModifier.swift; sourceTree = "<group>"; };
+		A88F797427877E95009CCA01 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		A88F7978278859E3009CCA01 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88F796E27876B19009CCA01 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +64,7 @@
 			children = (
 				A88F793427876454009CCA01 /* Homework1.4 */,
 				A88F793327876454009CCA01 /* Products */,
+				A88F796A27876A0B009CCA01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +79,14 @@
 		A88F793427876454009CCA01 /* Homework1.4 */ = {
 			isa = PBXGroup;
 			children = (
+				A88F7968278768A5009CCA01 /* Modules */,
+				A88F794327876568009CCA01 /* ViewModifiers */,
+				A88F797327877E95009CCA01 /* Extensions */,
 				A88F793527876454009CCA01 /* Homework1_4App.swift */,
 				A88F793727876454009CCA01 /* ContentView.swift */,
+				A88F794F2787659F009CCA01 /* NewsScreen */,
+				A88F7954278765A0009CCA01 /* CustomNavScreen */,
+				A88F79462787659F009CCA01 /* ModalScreen */,
 				A88F793927876457009CCA01 /* Assets.xcassets */,
 				A88F793B27876457009CCA01 /* Preview Content */,
 			);
@@ -65,6 +99,100 @@
 				A88F793C27876457009CCA01 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A88F794327876568009CCA01 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A88F794427876568009CCA01 /* LazyView.swift */,
+				A88F797127877E40009CCA01 /* LoadingIndicatorModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		A88F79462787659F009CCA01 /* ModalScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A88F79472787659F009CCA01 /* ModalScreen.swift */,
+			);
+			path = ModalScreen;
+			sourceTree = "<group>";
+		};
+		A88F794F2787659F009CCA01 /* NewsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A88F79502787659F009CCA01 /* ViewModel */,
+				A88F79522787659F009CCA01 /* View */,
+			);
+			path = NewsScreen;
+			sourceTree = "<group>";
+		};
+		A88F79502787659F009CCA01 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A88F79512787659F009CCA01 /* NewsScreenViewModel.swift */,
+				A88F796F27877D5A009CCA01 /* NewsListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A88F79522787659F009CCA01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A88F79532787659F009CCA01 /* NewsScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A88F7954278765A0009CCA01 /* CustomNavScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A88F7955278765A0009CCA01 /* ViewModel */,
+				A88F7957278765A0009CCA01 /* Views */,
+			);
+			path = CustomNavScreen;
+			sourceTree = "<group>";
+		};
+		A88F7955278765A0009CCA01 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A88F7956278765A0009CCA01 /* CustomNavScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A88F7957278765A0009CCA01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A88F7958278765A0009CCA01 /* ModalScreenOpenerView.swift */,
+				A88F7959278765A0009CCA01 /* ThirdScreen.swift */,
+				A88F795A278765A0009CCA01 /* ActivityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A88F7968278768A5009CCA01 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A88F796927876967009CCA01 /* Networking */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A88F796A27876A0B009CCA01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A88F797327877E95009CCA01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A88F797427877E95009CCA01 /* Array.swift */,
+				A88F7978278859E3009CCA01 /* Article.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +211,9 @@
 			dependencies = (
 			);
 			name = Homework1.4;
+			packageProductDependencies = (
+				A88F796D27876B19009CCA01 /* Networking */,
+			);
 			productName = Homework1.4;
 			productReference = A88F793227876454009CCA01 /* Homework1.4.app */;
 			productType = "com.apple.product-type.application";
@@ -137,8 +268,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88F794527876568009CCA01 /* LazyView.swift in Sources */,
+				A88F7966278765A0009CCA01 /* ActivityView.swift in Sources */,
+				A88F797527877E95009CCA01 /* Array.swift in Sources */,
+				A88F797227877E41009CCA01 /* LoadingIndicatorModifier.swift in Sources */,
+				A88F7962278765A0009CCA01 /* NewsScreen.swift in Sources */,
+				A88F7964278765A0009CCA01 /* ModalScreenOpenerView.swift in Sources */,
+				A88F795D278765A0009CCA01 /* ModalScreen.swift in Sources */,
+				A88F797027877D5A009CCA01 /* NewsListViewModel.swift in Sources */,
+				A88F7979278859E3009CCA01 /* Article.swift in Sources */,
 				A88F793827876454009CCA01 /* ContentView.swift in Sources */,
+				A88F7965278765A0009CCA01 /* ThirdScreen.swift in Sources */,
 				A88F793627876454009CCA01 /* Homework1_4App.swift in Sources */,
+				A88F7961278765A0009CCA01 /* NewsScreenViewModel.swift in Sources */,
+				A88F7963278765A0009CCA01 /* CustomNavScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +484,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A88F796D27876B19009CCA01 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A88F792A27876454009CCA01 /* Project object */;
 }
