@@ -19,7 +19,9 @@ struct ContentView: View {
                     Label("News Screen", systemImage: "newspaper")
                 }
                 .tag(0)
-            CustomNavScreen()
+            NavigationContainerView(transition: Transition.custom(.slide), content: {
+                CustomNavScreen()
+            })
                 .tabItem {
                     Label("Custom Nav Screen", systemImage: "square.stack.3d.down.right")
                 }

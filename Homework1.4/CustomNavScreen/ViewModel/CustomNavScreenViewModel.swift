@@ -10,6 +10,5 @@ import SwiftUI
 final class CustomNavScreenViewModel: ObservableObject {
     
     var title: String = "Custom Nav Screen"
-    @Published var isModalScreenShown: Bool = false
     
 }

@@ -10,14 +10,15 @@ import SwiftUI
 struct ModalScreenOpenerView: View {
     
     @EnvironmentObject var thirdScreenViewModel: CustomNavScreenViewModel
-    @State private var isModelShown: Bool = false
+    @EnvironmentObject var routeModel: NavigationContainerViewModel
 
     var body: some View {
-        Button("Show Modal Screen") {
-            thirdScreenViewModel.isModalScreenShown.toggle()
-        }
-        .sheet(isPresented: $thirdScreenViewModel.isModalScreenShown) {
-            ModalScreen()
+        VStack {
+            Spacer()
+            Button("Show Nav Screen") {
+                routeModel.push(screenView: LazyView(NavScreen()).toAnyView())
+            }
+            Spacer()
         }
     }
     

@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A88EE4142788C0A100E3F3B7 /* NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88EE40D2788C0A100E3F3B7 /* NavigationStack.swift */; };
+		A88EE4152788C0A100E3F3B7 /* NavigationContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88EE40E2788C0A100E3F3B7 /* NavigationContainerViewModel.swift */; };
+		A88EE4172788C0A100E3F3B7 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88EE4102788C0A100E3F3B7 /* Screen.swift */; };
+		A88EE4182788C0A100E3F3B7 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88EE4112788C0A100E3F3B7 /* SwiftUIView.swift */; };
+		A88EE4192788C0A100E3F3B7 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88EE4122788C0A100E3F3B7 /* Transition.swift */; };
+		A88EE41A2788C0A100E3F3B7 /* NavigationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88EE4132788C0A100E3F3B7 /* NavigationContainerView.swift */; };
+		A88EE41C278B0E1E00E3F3B7 /* NavScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88EE41B278B0E1E00E3F3B7 /* NavScreen2.swift */; };
 		A88F793627876454009CCA01 /* Homework1_4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F793527876454009CCA01 /* Homework1_4App.swift */; };
 		A88F793827876454009CCA01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F793727876454009CCA01 /* ContentView.swift */; };
 		A88F793A27876457009CCA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88F793927876457009CCA01 /* Assets.xcassets */; };
 		A88F793D27876457009CCA01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88F793C27876457009CCA01 /* Preview Assets.xcassets */; };
 		A88F794527876568009CCA01 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F794427876568009CCA01 /* LazyView.swift */; };
-		A88F795D278765A0009CCA01 /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F79472787659F009CCA01 /* ModalScreen.swift */; };
+		A88F795D278765A0009CCA01 /* NavScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F79472787659F009CCA01 /* NavScreen.swift */; };
 		A88F7961278765A0009CCA01 /* NewsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F79512787659F009CCA01 /* NewsScreenViewModel.swift */; };
 		A88F7962278765A0009CCA01 /* NewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F79532787659F009CCA01 /* NewsScreen.swift */; };
 		A88F7963278765A0009CCA01 /* CustomNavScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F7956278765A0009CCA01 /* CustomNavScreenViewModel.swift */; };
 		A88F7964278765A0009CCA01 /* ModalScreenOpenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F7958278765A0009CCA01 /* ModalScreenOpenerView.swift */; };
-		A88F7965278765A0009CCA01 /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F7959278765A0009CCA01 /* ThirdScreen.swift */; };
-		A88F7966278765A0009CCA01 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F795A278765A0009CCA01 /* ActivityView.swift */; };
+		A88F7965278765A0009CCA01 /* CustomNavScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F7959278765A0009CCA01 /* CustomNavScreen.swift */; };
 		A88F796E27876B19009CCA01 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = A88F796D27876B19009CCA01 /* Networking */; };
 		A88F797027877D5A009CCA01 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F796F27877D5A009CCA01 /* NewsListViewModel.swift */; };
 		A88F797227877E41009CCA01 /* LoadingIndicatorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88F797127877E40009CCA01 /* LoadingIndicatorModifier.swift */; };
@@ -27,19 +33,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A88EE40D2788C0A100E3F3B7 /* NavigationStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationStack.swift; sourceTree = "<group>"; };
+		A88EE40E2788C0A100E3F3B7 /* NavigationContainerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationContainerViewModel.swift; sourceTree = "<group>"; };
+		A88EE4102788C0A100E3F3B7 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		A88EE4112788C0A100E3F3B7 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A88EE4122788C0A100E3F3B7 /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		A88EE4132788C0A100E3F3B7 /* NavigationContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationContainerView.swift; sourceTree = "<group>"; };
+		A88EE41B278B0E1E00E3F3B7 /* NavScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavScreen2.swift; sourceTree = "<group>"; };
 		A88F793227876454009CCA01 /* Homework1.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework1.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88F793527876454009CCA01 /* Homework1_4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework1_4App.swift; sourceTree = "<group>"; };
 		A88F793727876454009CCA01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A88F793927876457009CCA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A88F793C27876457009CCA01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A88F794427876568009CCA01 /* LazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
-		A88F79472787659F009CCA01 /* ModalScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
+		A88F79472787659F009CCA01 /* NavScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavScreen.swift; sourceTree = "<group>"; };
 		A88F79512787659F009CCA01 /* NewsScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsScreenViewModel.swift; sourceTree = "<group>"; };
 		A88F79532787659F009CCA01 /* NewsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsScreen.swift; sourceTree = "<group>"; };
 		A88F7956278765A0009CCA01 /* CustomNavScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavScreenViewModel.swift; sourceTree = "<group>"; };
 		A88F7958278765A0009CCA01 /* ModalScreenOpenerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalScreenOpenerView.swift; sourceTree = "<group>"; };
-		A88F7959278765A0009CCA01 /* ThirdScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
-		A88F795A278765A0009CCA01 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		A88F7959278765A0009CCA01 /* CustomNavScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavScreen.swift; sourceTree = "<group>"; };
 		A88F796927876967009CCA01 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		A88F796F27877D5A009CCA01 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 		A88F797127877E40009CCA01 /* LoadingIndicatorModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorModifier.swift; sourceTree = "<group>"; };
@@ -59,6 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A88EE40C2788C0A100E3F3B7 /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				A88EE40D2788C0A100E3F3B7 /* NavigationStack.swift */,
+				A88EE40E2788C0A100E3F3B7 /* NavigationContainerViewModel.swift */,
+				A88EE4102788C0A100E3F3B7 /* Screen.swift */,
+				A88EE4112788C0A100E3F3B7 /* SwiftUIView.swift */,
+				A88EE4122788C0A100E3F3B7 /* Transition.swift */,
+				A88EE4132788C0A100E3F3B7 /* NavigationContainerView.swift */,
+			);
+			path = NavigationStack;
+			sourceTree = "<group>";
+		};
 		A88F792927876454009CCA01 = {
 			isa = PBXGroup;
 			children = (
@@ -84,9 +109,10 @@
 				A88F797327877E95009CCA01 /* Extensions */,
 				A88F793527876454009CCA01 /* Homework1_4App.swift */,
 				A88F793727876454009CCA01 /* ContentView.swift */,
+				A88EE40C2788C0A100E3F3B7 /* NavigationStack */,
 				A88F794F2787659F009CCA01 /* NewsScreen */,
 				A88F7954278765A0009CCA01 /* CustomNavScreen */,
-				A88F79462787659F009CCA01 /* ModalScreen */,
+				A88F79462787659F009CCA01 /* NavScreens */,
 				A88F793927876457009CCA01 /* Assets.xcassets */,
 				A88F793B27876457009CCA01 /* Preview Content */,
 			);
@@ -110,12 +136,13 @@
 			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
-		A88F79462787659F009CCA01 /* ModalScreen */ = {
+		A88F79462787659F009CCA01 /* NavScreens */ = {
 			isa = PBXGroup;
 			children = (
-				A88F79472787659F009CCA01 /* ModalScreen.swift */,
+				A88F79472787659F009CCA01 /* NavScreen.swift */,
+				A88EE41B278B0E1E00E3F3B7 /* NavScreen2.swift */,
 			);
-			path = ModalScreen;
+			path = NavScreens;
 			sourceTree = "<group>";
 		};
 		A88F794F2787659F009CCA01 /* NewsScreen */ = {
@@ -165,8 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				A88F7958278765A0009CCA01 /* ModalScreenOpenerView.swift */,
-				A88F7959278765A0009CCA01 /* ThirdScreen.swift */,
-				A88F795A278765A0009CCA01 /* ActivityView.swift */,
+				A88F7959278765A0009CCA01 /* CustomNavScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -269,16 +295,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A88F794527876568009CCA01 /* LazyView.swift in Sources */,
-				A88F7966278765A0009CCA01 /* ActivityView.swift in Sources */,
+				A88EE41A2788C0A100E3F3B7 /* NavigationContainerView.swift in Sources */,
+				A88EE41C278B0E1E00E3F3B7 /* NavScreen2.swift in Sources */,
 				A88F797527877E95009CCA01 /* Array.swift in Sources */,
 				A88F797227877E41009CCA01 /* LoadingIndicatorModifier.swift in Sources */,
 				A88F7962278765A0009CCA01 /* NewsScreen.swift in Sources */,
+				A88EE4172788C0A100E3F3B7 /* Screen.swift in Sources */,
 				A88F7964278765A0009CCA01 /* ModalScreenOpenerView.swift in Sources */,
-				A88F795D278765A0009CCA01 /* ModalScreen.swift in Sources */,
+				A88F795D278765A0009CCA01 /* NavScreen.swift in Sources */,
 				A88F797027877D5A009CCA01 /* NewsListViewModel.swift in Sources */,
+				A88EE4182788C0A100E3F3B7 /* SwiftUIView.swift in Sources */,
+				A88EE4192788C0A100E3F3B7 /* Transition.swift in Sources */,
 				A88F7979278859E3009CCA01 /* Article.swift in Sources */,
 				A88F793827876454009CCA01 /* ContentView.swift in Sources */,
-				A88F7965278765A0009CCA01 /* ThirdScreen.swift in Sources */,
+				A88EE4142788C0A100E3F3B7 /* NavigationStack.swift in Sources */,
+				A88F7965278765A0009CCA01 /* CustomNavScreen.swift in Sources */,
+				A88EE4152788C0A100E3F3B7 /* NavigationContainerViewModel.swift in Sources */,
 				A88F793627876454009CCA01 /* Homework1_4App.swift in Sources */,
 				A88F7961278765A0009CCA01 /* NewsScreenViewModel.swift in Sources */,
 				A88F7963278765A0009CCA01 /* CustomNavScreenViewModel.swift in Sources */,

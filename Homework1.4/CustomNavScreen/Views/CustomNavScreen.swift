@@ -12,11 +12,7 @@ struct CustomNavScreen: View {
     @EnvironmentObject var customNavScreenViewModel: CustomNavScreenViewModel
 
     var body: some View {
-        
-        NavigationView {
-            ModalScreenOpenerView()
-                .navigationBarTitle(Text(customNavScreenViewModel.title))
-        }
+        ModalScreenOpenerView()
     }
 }
 
