@@ -32,9 +32,9 @@ struct NewsScreenListView: View {
             .pickerStyle(.segmented)
             
             if listViewTypeChoice == 0 {
-                NewsListView()
+                NewsListView(newsCategory: "Apple")
             } else {
-                NewsListView2()
+                NewsListView(newsCategory: "COVID")
             }
             Spacer()
         }
@@ -45,26 +45,11 @@ struct NewsScreenListView: View {
 
 struct NewsListView: View {
     
-    @StateObject var newsViewModel: NewsListViewModel = .init(newsCategory: "Apple")
+    @StateObject private var newsViewModel: NewsListViewModel
     
-    var body: some View {
-        List(newsViewModel.articles) { article in
-            NewsArticleCell(article: article)
-                .showActivityIndicator(newsViewModel.isPageLoading && newsViewModel.articles.isLast(article))
-                .onAppear {
-                    if newsViewModel.articles.isLast(article) {
-                        newsViewModel.loadNextPage()
-                    }
-                }
-        }
-        .listStyle(.plain)
+    init(newsCategory: String) {
+        self._newsViewModel = StateObject(wrappedValue: NewsListViewModel(newsCategory: newsCategory))
     }
-    
-}
-
-struct NewsListView2: View {
-    
-    @StateObject var newsViewModel: NewsListViewModel = .init(newsCategory: "COVID")
     
     var body: some View {
         List(newsViewModel.articles) { article in

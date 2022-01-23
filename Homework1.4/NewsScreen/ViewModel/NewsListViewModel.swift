@@ -10,8 +10,7 @@ import Networking
 
 final class NewsListViewModel: ObservableObject {
     
-    var newsCategory: String
-
+    @Published var newsCategory: String = ""
     @Published var articles: [Article] = []
     @Published var isPageLoading: Bool = false
     var page: Int = 0
@@ -31,7 +30,7 @@ final class NewsListViewModel: ObservableObject {
         page += 1
         DispatchQueue.global(qos: .background).async {
             ArticlesAPI.everythingGet(q: self.newsCategory,
-                                      from: "2021-12-10",
+                                      from: "2022-01-20",
                                       sortBy: "publishedAt",
                                       language: "ru",
                                       apiKey: "a59e5f24831a4322b535578654582973",
